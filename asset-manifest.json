@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zakku_ecom_one/static/css/main.9749b4e0.css",
-    "main.js": "/zakku_ecom_one/static/js/main.c697ecb8.js",
+    "main.js": "/zakku_ecom_one/static/js/main.7a0c6412.js",
     "static/js/592.b65897e7.chunk.js": "/zakku_ecom_one/static/js/592.b65897e7.chunk.js",
     "index.html": "/zakku_ecom_one/index.html",
     "main.9749b4e0.css.map": "/zakku_ecom_one/static/css/main.9749b4e0.css.map",
-    "main.c697ecb8.js.map": "/zakku_ecom_one/static/js/main.c697ecb8.js.map",
+    "main.7a0c6412.js.map": "/zakku_ecom_one/static/js/main.7a0c6412.js.map",
     "592.b65897e7.chunk.js.map": "/zakku_ecom_one/static/js/592.b65897e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9749b4e0.css",
-    "static/js/main.c697ecb8.js"
+    "static/js/main.7a0c6412.js"
   ]
 }
