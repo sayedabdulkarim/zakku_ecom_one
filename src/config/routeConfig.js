@@ -1,10 +1,10 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import App from "../App";
-import HomeScreen from "../screens/auth/Home";
-import AboutScreen from "../screens/auth/About";
-import ProjectScreen from "../screens/auth/Projects";
-import ContactScreen from "../screens/auth/Contact";
+//screens
+import HomeScreen from "../pages/Home";
+import AboutScreen from "../pages/About";
+import ServiceScreen from "../pages/Service";
 
 const AppRoutes = () => {
   return (
@@ -13,10 +13,11 @@ const AppRoutes = () => {
         <Route path="/" element={<App />}>
           <Route index element={<HomeScreen />} />
           <Route path="about" element={<AboutScreen />} />
-          <Route path="project" element={<ProjectScreen />} />
-          <Route path="contact" element={<ContactScreen />} />
+          <Route path="service" element={<ServiceScreen />} />
+          {/* If you have other nested routes, they should be defined here */}
         </Route>
-        <Route path="*" element={<h1>404 Component</h1>} />
+        {/* This catch-all route is placed outside of the nested routes to ensure it catches all unmatched paths */}
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     </Router>
   );
