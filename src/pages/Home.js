@@ -10,6 +10,7 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
+      <h1>Zakku</h1>
       <div className="container">
         <Balance />
         <Incomexpence />
